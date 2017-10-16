@@ -1,0 +1,19 @@
+name: 'ACSF Lightning'
+type: profile
+version: 8.x-dev
+description: 'This is an extended version of Lightning that is designed to work properly with ACSF.'
+core: '8.x'
+dependencies:
+  - acsf
+  - acsf_sso
+  - acsf_duplication
+  - asset_injector
+  - material_admin_support
+
+themes:
+  - bartik
+  - seven
+  - material_admin
+
+base profile:
+  name: lightning

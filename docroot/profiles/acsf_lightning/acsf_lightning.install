@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall hooks for the ACSF Lightning subprofile.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function acsf_lightning_install() {
+  // Set the default and admin theme.
+  \Drupal::configFactory()
+    ->getEditable('system.theme')
+    ->set('admin', 'material_admin')
+    ->save(TRUE);
+}
