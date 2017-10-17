@@ -8,12 +8,10 @@ dependencies:
   - acsf_sso
   - acsf_duplication
   - asset_injector
-  - material_admin_support
 
 themes:
   - bartik
   - seven
-  - material_admin
 
 base profile:
   name: lightning
